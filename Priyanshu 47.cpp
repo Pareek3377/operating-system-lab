@@ -43,7 +43,10 @@ int main()
     }
     avgwaitingTime/=numProcesses;
     avgturnaroundTime/=numProcesses;
-    
+    cout<<avgwaitingTime<<"avgwaitingTime"<<endl;
+    cout<<avgturnaroundTime<<"avgturnaroundTime"<<endl;
+}
+   
     
     
 }
